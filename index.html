@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, My Love!</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+        }
+        header {
+            background-color: #ffafcc;
+            padding: 20px;
+            text-align: center;
+        }
+        .logo img {
+            max-width: 100px;
+            border-radius: 50%;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav ul li a {
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+        .hero {
+            background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+            text-align: center;
+            padding: 50px;
+            font-family: 'Great Vibes', cursive;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .hero button {
+            background-color: #ffafcc;
+            color: white;
+            font-size: 1.2rem;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .hero button:hover {
+            background-color: #f767a3;
+        }
+        section.about {
+            display: none;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 1.2rem;
+        }
+        section.about.active {
+            display: block;
+        }
+        section.about h2 {
+            font-size: 2.5rem;
+            color: #ff69b4;
+            font-family: 'Great Vibes', cursive;
+            margin-bottom: 15px;
+        }
+        section.about p {
+            color: #333;
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+        }
+        section.about img {
+            max-width: 300px;
+            border-radius: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffafcc;
+            color: white;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.ibb.co/86bKMD9/ummm.jpg" alt="Your Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" data-section="hero">HOME</a></li>
+                <li><a href="#" data-section="date1">OUR FIRST DATE</a></li>
+                <li><a href="#" data-section="firsts">OUR FIRSTS</a></li>
+                <li><a href="#" data-section="puri">PURI TRIP</a></li>
+                <li><a href="#" data-section="banaras">BANARAS</a></li>
+                <li><a href="#" data-section="gopalpur">GOPALPUR</a></li>
+                <li><a href="#" data-section="proposal">PROPOSAL</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero active">
+            <h1>Happy Birthday, My Love!</h1>
+            <p>Every day with you is a blessing, but today, I celebrate the joy you bring to my life! 💖</p>
+            <button>Sending You All My Love</button>
+        </section>
+        
+        <!-- Other sections -->
+        <section id="date1" class="about" style="background-color: #ffabf9;">
+            <h2>Remember Our First Date?</h2>
+            <p>The nervousness faded away the moment you smiled. Thank you for being the light of my life! ❤️</p>
+            <div class="images">
+                <img src="https://i.ibb.co/N7Qf8z7/hmmmm4.jpg" alt="Image 1">
+            </div>
+        </section>
+
+        <section id="firsts" class="about" style="background-color: #fcf6bd;">
+            <h2>Our Beautiful Firsts Together</h2>
+            <p>From holding hands to sharing chocolates, every first with you feels like magic. 💕</p>
+            <div class="images">
+                <img src="https://i.ibb.co/Yhdmm1F/hmmmm5.jpg" alt="Image 2">
+            </div>
+        </section>
+
+        <section id="puri" class="about" style="background-color: #d0f4de;">
+            <h2>The Puri Trip</h2>
+            <p>On that sunny day at the beach, your laughter was the most beautiful sound. You complete me! 🌍</p>
+            <div class="images">
+                <img src="https://i.ibb.co/6vkZ37c/hmm3.jpg" alt="Image 3">
+            </div>
+        </section>
+
+        <section id="banaras" class="about" style="background-color: #a9def9;">
+            <h2>Memories of Banaras</h2>
+            <p>From the Mandir to the Ganga Aarti, sharing those moments with you was unforgettable. 💖</p>
+            <div class="images">
+                <img src="https://i.ibb.co/XLWGJP2/hmm1.jpg" alt="Image 4">
+            </div>
+        </section>
+
+        <section id="gopalpur" class="about" style="background-color: #e4c1f9;">
+            <h2>The Gopalpur Trip</h2>
+            <p>The calm waves and your beautiful presence made Gopalpur an unforgettable trip. Forever in my heart. 🌊</p>
+            <div class="images">
+                <img src="https://via.placeholder.com/300x200.png?text=Gopalpur+Trip+Photo" alt="Gopalpur Trip Photo">
+            </div>
+        </section>
+
+        <section id="proposal" class="about" style="background-color: #e4c1f9;">
+            <h2>Proposal of a Lifetime</h2>
+            <p>When I asked you to be mine forever, I knew I was the luckiest person in the world. 💍</p>
+            <div class="images">
+                <img src="https://i.ibb.co/fF290qY/hmmmm6.jpg" alt="Image 5">
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024. Every moment with you is a gift I’ll treasure forever. P.S. I LOVE YOU! 💖</p>
+    </footer>
+
+    <!-- JavaScript for navigation functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const links = document.querySelectorAll('nav ul li a');
+            const sections = document.querySelectorAll('section');
+
+            links.forEach(link => {
+                link.addEventListener('click', function(event) {
+                    event.preventDefault();
+                    
+                    // Get the target section ID
+                    const sectionId = this.getAttribute('data-section');
+
+                    // Hide all sections
+                    sections.forEach(section => section.classList.remove('active'));
+
+                    // Show the target section
+                    document.getElementById(sectionId).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
